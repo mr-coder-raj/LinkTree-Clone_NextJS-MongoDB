@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font{
+    font-family: "Link Sans", "Arial Black", Arial, sans-serif;
+}
