@@ -1,5 +1,6 @@
 # 🌐 LinkTree Clone - Next.js & MongoDB
 
+![App Screenshot](./linktree.jpg)
 A simple and clean **LinkTree-style** app where users can create a public page containing multiple useful links. Built using **Next.js**, **MongoDB**, and **Tailwind CSS**.
 
 ## 🚀 Features
