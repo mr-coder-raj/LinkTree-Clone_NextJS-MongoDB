@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 LinkTree Clone - Next.js & MongoDB
 
-## Getting Started
+A simple and clean **LinkTree-style** app where users can create a public page containing multiple useful links. Built using **Next.js**, **MongoDB**, and **Tailwind CSS**.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🔗 Add, update, and delete multiple links  
+- 📄 Display all links on a public page  
+- 📱 Fully responsive UI  
+- 🌈 Styled using Tailwind CSS  
+- 🗃️ MongoDB for storing link data  
+
+## 🛠 Tech Stack
+
+- **Frontend & Backend:** [Next.js](https://nextjs.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Database:** [MongoDB](https://www.mongodb.com/) with Mongoose  
+
+
+## 📦 Getting Started
+
+## 1. Clone the repo
+```
+git clone https://github.com/mr-coder-raj/LinkTree-Clone_NextJS-MongoDB.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Move into the project directory
+```
+cd LinkTree-Clone_NextJS-MongoDB
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 3. Install dependencies
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 4. Create `.env.local` and add:
+```
+MONGODB_URI=your_mongo_connection_string
+```
 
-## Learn More
+## 5. Run the dev server
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open your browser and visit:
+👉 http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+>Note:
+>Make sure your MongoDB URI is correctly set in .env.local or the app will not load links.
 
-## Deploy on Vercel
+## 🤝 Contributing
+Contributions are welcome!
+Fork the repo, make changes, and open a pull request. For major changes, open an issue to discuss your idea first.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by @mr-coder-raj
